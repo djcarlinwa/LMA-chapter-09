@@ -17,11 +17,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    //Say hello on button tap
     @IBAction func showOutput(sender: AnyObject) {
-        lblOutput.text = "Hello " + txtName.text
-        //lblOutput.text = "Hello \(txtName.text)"
+        lblOutput.text = "Hello " + txtName.text!;
+        //lblOutput.text = "Hello \(txtName.text!).";
     }
     
+    //Hide the on-screen keyboard
     @IBAction func backgroundTap(sender: AnyObject){
         self.view.endEditing(true);
     }

@@ -156,6 +156,7 @@
 		D1FB506E1AF712F000FE06D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Cascadia College";
 				TargetAttributes = {
@@ -411,6 +412,7 @@
 				D1FB50971AF712F000FE06D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1FB50981AF712F000FE06D0 /* Build configuration list for PBXNativeTarget "HelloWorld-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +421,7 @@
 				D1FB509A1AF712F000FE06D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

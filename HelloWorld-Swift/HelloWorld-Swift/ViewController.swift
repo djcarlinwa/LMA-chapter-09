@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     //Say hello on button tap
     @IBAction func showOutput(sender: AnyObject) {
-        lblOutput.text = "Hello " + txtName.text!;
+        lblOutput.text = "Hello David" + txtName.text!;
         //lblOutput.text = "Hello \(txtName.text!).";
     }
     
